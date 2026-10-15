@@ -1,20 +1,20 @@
-name: Nexus Omni-Convergence Lifecycle
+name: Nexus-01 Decomposed Lifecycle
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '45 */4 * * *'
+    - cron: '10 */4 * * *'
 
 permissions:
   contents: write
 
 jobs:
-  run-nexus-engine:
+  run-nexus01:
     runs-on: ubuntu-latest
     steps:
-      - name: Kéo mã nguồn Nexus qua Linux Shell
+      - name: Kéo mã nguồn Nexus-01
         run: |
           git clone --depth 1 https://github.com/${{ github.repository }}.git .
 
@@ -23,15 +23,15 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Vận hành Trục Hội Tụ Nexus
+      - name: Vận hành Microkernel Phân Rã Nexus-01
         env:
           REPO_OWNER: ${{ github.repository_owner }}
         run: python engine.py
 
-      - name: Lưu vết tích nhịp đập hội tụ vào Git
+      - name: Lưu vết tích tiến hóa Git
         run: |
-          git config --global user.name "Nexus-Omni-Bot"
-          git config --global user.email "bot@nexus.node"
+          git config --global user.name "Nexus-01-Prodigy-Bot"
+          git config --global user.email "bot@nexus01.node"
           
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           
@@ -40,8 +40,8 @@ jobs:
           git add synapses/ synapse_backward.json synapse_forward.json 2>/dev/null || true
           
           if ! git diff --staged --quiet; then
-            git commit -m "🌌 [Nexus Omni-Hub] Nhịp đập hội tụ toàn mạng #(1+N) [skip ci]"
+            git commit -m "💎 [Nexus-01 Phân Rã] Tiến hóa khớp siêu lỏng #(1+N) [skip ci]"
             git push origin main
           else
-            echo "Mạng lưới tĩnh lặng, không có biến thiên mới."
+            echo "Mạng lưới tĩnh, không có biến đổi mới."
           fi
