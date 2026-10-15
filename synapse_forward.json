@@ -1,36 +1,21 @@
 {
-    "contract": "bodhi.nexus.v1",
+    "contract": "bodhi.nexus.v2",
     "node_dna": {
         "identity": "100048777766367/nexus-01",
-        "role": "UNIVERSAL_SYNAPTIC_NEXUS",
-        "generation_epoch": 10,
-        "pulse_age": 1,
-        "active_nodes_count": 12
+        "generation": "F1_MODULAR_NEXUS",
+        "generation_epoch": 11,
+        "architecture": "Decomposed_Microkernel_v1"
     },
-    "generation_epoch": 10,
-    "timestamp": 1792047835,
-    "decision": 0.5377,
+    "generation_epoch": 11,
+    "timestamp": 1792047862,
+    "decision": 0.6,
     "command_pulse": [
-        0.5377,
-        0.4623
+        0.6,
+        0.4
     ],
     "features": [
-        0.5377,
-        0.4623
-    ],
-    "connected_peers": [
-        "100048777766367/seed",
-        "100048777766367/seed-01",
-        "100048777766367/seed-02",
-        "100048777766367/seed-bodhi",
-        "100048777766367/seed-bodhi-02",
-        "100048777766367/monad-01",
-        "100048777766367/monad-02",
-        "100048777766367/retina",
-        "100048777766367/cochlea",
-        "100048777766367/tactile",
-        "100048777766367/olfactory",
-        "100048777766367/genome"
+        0.6,
+        0.4
     ],
     "gossip_network": [
         "100048777766367/seed",
@@ -48,5 +33,5 @@
         "100048777766367/motor",
         "100048777766367/genome"
     ],
-    "quantum_cid": "0362cb0ec4160dd4343ac228c7693bb874bf6963b4d2be6b3dc89b94e6e596f76ecbe2dea23842c3ac8aaa115b47f76cca27aca677571e5c452a27690926aae0"
+    "quantum_cid": "c2b4b45b693c77484254daab506968f613da78761935921b4cee447962901d154bdf147fd1a10dd4624ee659e0040f67608c865a46b7e6e40a9d88efe3f05057"
 }
