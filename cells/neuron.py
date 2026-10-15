@@ -17,12 +17,10 @@ class AtomNeuron:
         self.n_xor = n_super_xor
         self.storage_path = os.path.join(storage_dir, f"{self.id}.json")
         self.os_dir = storage_dir
-        
         self.weights = []
         self.bias = 0.0
         self.last_inputs = []
         self.last_out = 0.0
-        
         self.load_self()
 
     def load_self(self):
@@ -57,7 +55,6 @@ class AtomNeuron:
         self.last_inputs = [max(-10.0, min(10.0, float(x))) for x in inputs[:self.n_in]]
         while len(self.last_inputs) < self.n_in:
             self.last_inputs.append(0.0)
-
         tong = sum(self.last_inputs[i] * self.weights[i] for i in range(self.n_in)) + self.bias
         self.last_out = sigmoid(tong)
         return self.last_out
