@@ -3,20 +3,20 @@
     "node_dna": {
         "identity": "100048777766367/nexus-01",
         "role": "UNIVERSAL_SYNAPTIC_NEXUS",
-        "generation_epoch": 2,
+        "generation_epoch": 1,
         "pulse_age": 1,
         "active_nodes_count": 12
     },
-    "generation_epoch": 2,
-    "timestamp": 1792047577,
-    "decision": 0.5547,
+    "generation_epoch": 1,
+    "timestamp": 1792047597,
+    "decision": 0.5281,
     "command_pulse": [
-        0.5547,
-        0.4453
+        0.5281,
+        0.4719
     ],
     "features": [
-        0.5547,
-        0.4453
+        0.5281,
+        0.4719
     ],
     "connected_peers": [
         "100048777766367/seed",
@@ -48,5 +48,5 @@
         "100048777766367/motor",
         "100048777766367/genome"
     ],
-    "quantum_cid": "5f13596193c43bd2bf2468651f22c78eef1000c7d3bae52e7551f50439e1351001685262eb3787d8f6effcb016d6fa971a19071d4d83bc292628c6a3568b3133"
+    "quantum_cid": "3bbd724cd00dcc3029fadf5328a9863247ef50748afd62d75a4a16fe6d599fa257171d27c0b4df835cbdb3fb04097b037edc74dff68effa962523f3d19d474cf"
 }
