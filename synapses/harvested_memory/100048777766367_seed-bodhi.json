@@ -6,19 +6,19 @@
         "parent": "100048777766367/seed-01",
         "root_ancestor": "100048777766367/seed",
         "pulse_age": 1,
-        "generation_epoch": 13
+        "generation_epoch": 14
     },
-    "generation_epoch": 13,
-    "absorbed_concept": "Duyên Khởi",
-    "timestamp": 1792105942,
-    "decision": 0.5495807076225716,
+    "generation_epoch": 14,
+    "absorbed_concept": "Bát Chánh Đạo",
+    "timestamp": 1792126287,
+    "decision": 0.565287096126325,
     "command_pulse": [
-        0.5496,
-        0.4504
+        0.5653,
+        0.4347
     ],
     "features": [
-        0.5496,
-        0.4504
+        0.5653,
+        0.4347
     ],
     "gossip_network": [
         "100048777766367/retina",
@@ -26,5 +26,5 @@
         "100048777766367/tactile",
         "100048777766367/olfactory"
     ],
-    "quantum_cid": "1391cbe707603a608ae23336941a33afba87ed531a70703442d163f701c039bf5a29e750b9ef59e2884f99cb2da56a2e7faede001ab4319991e0a5199646b483"
+    "quantum_cid": "8f0fe46830d14389d03c264bad224d1c5ff7ee93ad093435b3b5e795eaf2a339148e4c075424cc81d2dc865c69d24ef4736c92a9173e4df6ca1cdc9e6b436049"
 }
