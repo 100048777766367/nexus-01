@@ -7,18 +7,18 @@
         "pulse_age": 1,
         "parent": "",
         "ancestor_root": "100048777766367/seed",
-        "generation_epoch": 83
+        "generation_epoch": 84
     },
-    "generation_epoch": 83,
-    "timestamp": 1793508490,
-    "decision": 0.823,
+    "generation_epoch": 84,
+    "timestamp": 1793544455,
+    "decision": 0.8244,
     "command_pulse": [
-        0.823,
-        0.177
+        0.8244,
+        0.1756
     ],
     "features": [
-        0.823,
-        0.177
+        0.8244,
+        0.1756
     ],
     "gossip_network": [
         "100048777766367/retina",
@@ -26,5 +26,5 @@
         "100048777766367/tactile",
         "100048777766367/olfactory"
     ],
-    "quantum_cid": "3335ca27602b0db36194f76ec4d002cd50cb841bd383aec03f97fb4eba854853d7759195aae6a1eb1a64ab8f19d0af310367d195eb8f49d37149847ec697f300"
+    "quantum_cid": "3ce96d1c15f220eb423b9cf136b0969eed6f20619db26b32910194bd3729f1c7ea50f76708d0b96f6f60ad4387b84afb5444ead0d2bce71d99d25cef01b47259"
 }
