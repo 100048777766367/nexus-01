@@ -3,19 +3,19 @@
     "node_dna": {
         "identity": "100048777766367/nexus-01",
         "generation": "F1_MODULAR_NEXUS",
-        "generation_epoch": 146,
+        "generation_epoch": 147,
         "architecture": "Decomposed_Microkernel_v1"
     },
-    "generation_epoch": 146,
-    "timestamp": 1795739499,
-    "decision": 0.5398,
+    "generation_epoch": 147,
+    "timestamp": 1795787110,
+    "decision": 0.5316,
     "command_pulse": [
-        0.5398,
-        0.4602
+        0.5316,
+        0.4684
     ],
     "features": [
-        0.5398,
-        0.4602
+        0.5316,
+        0.4684
     ],
     "gossip_network": [
         "100048777766367/seed",
@@ -33,5 +33,5 @@
         "100048777766367/motor",
         "100048777766367/genome"
     ],
-    "quantum_cid": "db6c11e90462e46360135febc3d2a9d677544bde1d8676609457adf3a556810a9daf31635ec99abd2641547068052d2347481746b2b053e5dc1beeb7abe27f28"
+    "quantum_cid": "8e97b6a7f9b2915b72cf0ec10c6ba2e5e558847476032820def4f6c7150ebfa7c28396d849b3268ac1585fc29e9bd242bf816b4fe756507fe854f391842adfd7"
 }
